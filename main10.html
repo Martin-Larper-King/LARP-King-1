@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LARPKING</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #10151b;
+            color: white;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .intro {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .intro .text {
+            flex: 2;
+        }
+        .intro .image {
+            flex: 1;
+        }
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            text-align: center;
+        }
+        .section h2 {
+            color: #00bcd4;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #00bcd4;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .buttons a:hover {
+            background-color: #007a99;
+        }
+        .upcoming-section {
+            margin: 30px auto;
+            max-width: 1200px;
+        }
+        .upcoming-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .upcoming-table td {
+            vertical-align: top;
+            padding: 10px;
+        }
+        .upcoming-table .description {
+            width: 70%;
+        }
+        .upcoming-table .actions {
+            width: 30%;
+            text-align: center;
+        }
+        .upcoming-table .actions a {
+            display: inline-block;
+            padding: 10px;
+            color: white;
+            background-color: #00bcd4;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .upcoming-table .actions a:hover {
+            background-color: #007a99;
+        }
+        .zalgo {
+            font-family: Arial, sans-serif;
+        }
+        .signs {
+            font-family: Arial, sans-serif;
+            font-size: 1.2em;
+        }
+        .machine {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        /* Nuove modifiche per la sezione Domande Frequenti */
+        .faq-section {
+            text-align: left;  /* Allinea a sinistra */
+            margin-top: 20px;
+        }
+
+        .faq-section h3 {
+            color: #00bcd4;  /* Colore blu per la domanda */
+            font-size: 1.2em;  /* Titolo più piccolo della risposta */
+        }
+
+        .faq-section p {
+            color: white;  /* Colore bianco per la risposta */
+            font-size: 1em;  /* Dimensione normale per la risposta */
+            margin-left: 20px;  /* Spazio a sinistra per la risposta */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sezione introduttiva -->
+        <div class="intro">
+            <div class="text">
+                <h1>Benvenuti a LARPKING</h1>
+                <p>
+                    Immagina di affrontare temi complessi come l'ecologia, le emozioni e il linguaggio in prima persona:
+                    non solo studiandoli, ma vivendoli sulla tua pelle. 
+                </p>
+                <p>
+                    Cosa faresti se scoprissi che il tuo pianeta è destinato alla distruzione? <br> Che cosa succede nella testa di una persona durante un appuntamento
+                    romantico? <br> Cosa proveresti, se non potessi comunicare usando la tua voce?
+                </p>
+                <p>
+                    Con LARPKING avrai la possibilità di essere il protagonista di situazioni straordinarie, divertirti e
+                    confrontarti con dilemmi e sfide sociali, storiche ed emozionali.
+                </p>
+            </div>
+            <div class="image">
+                <img src="MLARPK.PNG" alt="Logo di LARPKING con design accattivante">
+            </div>
+        </div>
+
+        <!-- Sezione descrizione -->
+        <div class="section">
+            <h2>Cos'è LARPKING?</h2>
+            <p>
+                LARPKING è un progetto educativo basato sul gioco di ruolo dal vivo (LARP), che ti permette di immergerti in tematiche
+                importanti in modo interattivo e personale. Attraverso i nostri giochi, avrai la possibilità di esplorare emozioni, dilemmi,
+                e sfide sociali, vivendo esperienze indimenticabili.
+            </p>
+            <div class="buttons">
+                <a href="https://it.wikipedia.org/wiki/Gioco_di_ruolo_dal_vivo" target="_blank">Cos'è un LARP?</a>
+            </div>
+        </div>
+
+        <!-- Sezione prossimamente -->
+        <div class="section">
+            <h2>Prossimamente</h2>
+            <table class="upcoming-table">
+                <tr>
+                    <td class="description">
+                        <h3>Emotional <em>(Giovedì 30 Gennaio 2025)</em></h3>
+                        <p>Due cuori, un appuntamento, e un sacco di voci nella testa.<br> Un gioco buffo in stile Inside Out.</p>
+                    </td>
+                    <td class="actions">
+                        <a href="https://forms.gle/form-emotional" target="_blank">Prenota Emotional</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="description">
+                         <h3>????????? <em>(Giovedì 13 Febbraio 2025)</em></h3>
+                        <p>??? ?? ?????? ???? ??? ???? ?? ??? ?? ???????? ?? ???? ??????? ???? ???? ????????? ? ?????? ?</p>
+                    </td>
+                    <td class="actions">
+                        <a href="https://forms.gle/form-medea" target="_blank">Prenota ????</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="description">
+                         <h3>XXXXX <em>(Giovedì 6 Marzo 2025)</em></h3>
+                        <p>xxxxxxxxxx xx xxxxxx xxxx x xxx xx xxxxxxxx xxxx xxxx xxxx x xxxxx xxxxxxx xx</p>
+                    </td>
+                    <td class="actions">
+                        <a href="https://forms.gle/form-signs" target="_blank">Prenota XXXXX</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Sezione Domande Frequenti -->
+        <div class="faq-section">
+            <h2>Domande Frequenti</h2>
+            <div>
+                <h3>Dove e quando ci vediamo?</h3>
+                <p>
+                    Nella sede principale della scuola, via Sturla 63. Ci vediamo alle 14.15 (puntuali) salutandoci alle 16.45.
+                </p>
+            </div>
+
+            <div>
+                <h3>Ma devo saper recitare?</h3>
+                <p>
+                    No, assolutamente! Vieni solo con voglia di divertirti e fare un'esperienza un po' particolare.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
